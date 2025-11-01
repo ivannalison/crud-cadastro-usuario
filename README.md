@@ -232,19 +232,55 @@ ng serve
 | `/editar/:id` | EditarUsuarioComponent | Formulário de edição |
 
 ---
+---
 
 ## 📊 Demonstração
 
-# 🚀 Telas do Projeto CRUD de Cadastro de Usuário (Angular)
-
 ### **Tela de Cadastro**
-![Formulário de Cadastro](siteangular/src/assets/Formulário de cadastro.png)
 
-### **Tela de Edição**
-![Formulário de Edição](siteangular/src/assets/Formulário de edição.png)
+Formulário completo com validações em tempo real, feedback de erros e design moderno com gradiente.
+
+![Formulário de Cadastro](./siteangular/src/assets/Fumulário%20de%20cadastro.png)
+
+**Recursos:**
+- ✅ Validação de campos obrigatórios
+- ✅ Validação de formato de email
+- ✅ Botões de "Cadastrar" e "Limpar"
+- ✅ Feedback visual de loading
+- ✅ Mensagens de erro personalizadas
+
+---
 
 ### **Tela de Boas-Vindas**
-![Formulário de Boas-Vindas](siteangular/src/assets/Formulário de boas vindas.png)
+
+Página personalizada exibida após cadastro bem-sucedido, com nome do usuário e opções de navegação.
+
+![Formulário de Boas-Vindas](./siteangular/src/assets/Formulário%20de%20boas%20vindas%20.png)
+
+**Recursos:**
+- ✅ Ícone de sucesso
+- ✅ Mensagem personalizada com nome do usuário
+- ✅ Botão "Editar Cadastro"
+- ✅ Botão "Novo Cadastro"
+- ✅ Design limpo e moderno
+
+---
+
+### **Tela de Edição**
+
+Formulário pré-preenchido com dados do usuário, permitindo atualização ou exclusão da conta.
+
+![Formulário de Edição](./siteangular/src/assets/Formulário%20de%20edição%20.png)
+
+**Recursos:**
+- ✅ Campos pré-preenchidos com dados atuais
+- ✅ Botão "Atualizar" para salvar alterações
+- ✅ Botão "Cancelar" para voltar
+- ✅ Botão "Deletar Conta" destacado em vermelho
+- ✅ Confirmação antes de excluir
+- ✅ Mensagens de sucesso e erro
+
+---
 
 ---
 
