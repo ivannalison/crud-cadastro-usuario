@@ -1,0 +1,44 @@
+# Dependências
+/node_modules
+/node_modules/
+**/node_modules/
+/.pnp
+.pnp.js
+
+# Logs e Arquivos de Lock
+/npm-debug.log*
+/.npm
+/yarn-debug.log*
+/yarn-error.log*
+/lerna-debug.log*
+/pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Diretório de build (Angular e outros)
+/dist
+/build
+/out
+
+# Arquivos de Cache e Pastas Geradas (ESSENCIAL)
+.angular/
+**/.angular/
+.temp
+.cache
+.DS_Store
+Thumbs.db
+*.log
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de IDEs e editores (Visual Studio Code, etc.)
+.vscode/
+
+# Outros
+/coverage
+/public/hot

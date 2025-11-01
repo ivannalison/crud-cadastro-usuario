@@ -1,0 +1,19 @@
+<!-- cadastro-usuario/siteangular/src/app/bem-vindo/bem-vindo.component.html -->
+<!-- Template HTML da página de boas-vindas -->
+
+<div class="container-bem-vindo">
+  <div class="card-bem-vindo">
+    <div class="icone-sucesso">✓</div>
+    <h1>Bem-vindo, {{ nomeUsuario }}!</h1>
+    <p class="mensagem">Seu cadastro foi realizado com sucesso!</p>
+    
+    <div class="grupo-botoes">
+      <button class="botao botao-editar" (click)="editarCadastro()">
+        Editar Cadastro
+      </button>
+      <button class="botao botao-voltar" (click)="voltarCadastro()">
+        Novo Cadastro
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,79 @@
+/* cadastro-usuario/siteangular/src/app/bem-vindo/bem-vindo.component.css */
+/* Estilos CSS do componente de boas-vindas */
+
+.container-bem-vindo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.card-bem-vindo {
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.icone-sucesso {
+  width: 80px;
+  height: 80px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.mensagem {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.grupo-botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.botao {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.botao-editar {
+  background-color: #667eea;
+  color: white;
+}
+
+.botao-editar:hover {
+  background-color: #5568d3;
+}
+
+.botao-voltar {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.botao-voltar:hover {
+  background-color: #d0d0d0;
+}

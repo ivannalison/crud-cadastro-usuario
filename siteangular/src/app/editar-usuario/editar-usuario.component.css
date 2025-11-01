@@ -1,0 +1,130 @@
+/* cadastro-usuario/siteangular/src/app/editar-usuario/editar-usuario.component.css */
+/* Estilos CSS do componente de edição de usuário */
+
+.container-edicao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.card-edicao {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.alerta-erro {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #f5c6cb;
+}
+
+.alerta-sucesso {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #c3e6cb;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grupo-formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.grupo-botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.botao {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+botao-primario {
+  flex: 1;
+  background-color: #667eea;
+  color: white;
+}
+
+.botao-primario:hover:not(:disabled) {
+  background-color: #5568d3;
+}
+
+.botao-secundario {
+  flex: 1;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.botao-secundario:hover:not(:disabled) {
+  background-color: #d0d0d0;
+}
+
+.botao-deletar {
+  width: 100%;
+  background-color: #dc3545;
+  color: white;
+  margin-top: 10px;
+}
+
+.botao-deletar:hover:not(:disabled) {
+  background-color: #c82333;
+}
+
+.botao:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
