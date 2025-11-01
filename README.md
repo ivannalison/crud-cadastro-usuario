@@ -336,9 +336,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Ivan Nalison Cassimiro Xavier**
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Nome](https://linkedin.com/in/seu-perfil)
-- Email: seu-email@exemplo.com
+- GitHub: Ivan Nalison(https://github.com/ivannalison)
+- LinkedIn: Ivan Nalison (https://www.linkedin.com/in/ivan-nalison/)
+- Email: nalison.cn@gmail.com
 
 ---
 
