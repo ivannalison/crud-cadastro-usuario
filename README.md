@@ -235,14 +235,16 @@ ng serve
 
 ## 📊 Demonstração
 
-### **Tela de Cadastro**
-![Cadastro](https://via.placeholder.com/800x400/667eea/ffffff?text=Tela+de+Cadastro)
+# 🚀 Telas do Projeto CRUD de Cadastro de Usuário (Angular)
 
-### **Tela de Boas-Vindas**
-![Boas-Vindas](https://via.placeholder.com/800x400/4caf50/ffffff?text=Bem-Vindo)
+### **Tela de Cadastro**
+![Formulário de Cadastro](siteangular/src/assets/Formulário de cadastro.png)
 
 ### **Tela de Edição**
-![Edição](https://via.placeholder.com/800x400/667eea/ffffff?text=Editar+Usuario)
+![Formulário de Edição](siteangular/src/assets/Formulário de edição.png)
+
+### **Tela de Boas-Vindas**
+![Formulário de Boas-Vindas](siteangular/src/assets/Formulário de boas vindas.png)
 
 ---
 
